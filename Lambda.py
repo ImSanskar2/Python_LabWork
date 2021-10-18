@@ -4,8 +4,6 @@
 [4, 4, 4]
 >>> li=[1,2,3,4]
 >>> l=filter(lambda x: x%2==0,li)
->>> l
-<filter object at 0x0000022904249310>
 >>> print(list(l))
 [2, 4]
 >>> l=map(lambda x: x*x,li)
@@ -19,4 +17,3 @@
 >>> l=list(map(lambda x,y:x+" "+y,name,last_name))
 >>> print(l)
 ['Sanskar Bandi','Sairaj Raghuwanshi','Utkarsh Odhekar','Jay Dubey']
->>> 
