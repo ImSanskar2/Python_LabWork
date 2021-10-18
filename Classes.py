@@ -10,11 +10,11 @@ class pk:
     def show(self):
         print("name ="+ self.name)
         print("age =" , self.age)
-obj1=pk("shruti",20)
+obj1=pk("Sanskar",19)
 obj1.show()
 
 class MyClass:
-  x = 8
+  x = 9
 p1 = MyClass()
 print(p1.x)
 
@@ -30,9 +30,9 @@ class Queue:
     return len(self.queue)
 
 TheQueue = Queue()
-TheQueue.addtoq("Mon")
-TheQueue.addtoq("Tue")
-TheQueue.addtoq("Wed")
+TheQueue.addtoq("One")
+TheQueue.addtoq("Two")
+TheQueue.addtoq("Three")
 print(TheQueue.size())
 
 #stack
@@ -48,10 +48,10 @@ class Stack:
   def peek(self):
     return self.stack[-1]
 AStack = Stack()
-AStack.add("Mon")
-AStack.add("Tue")
+AStack.add("One")
+AStack.add("Two")
 AStack.peek()
 print(AStack.peek())
-AStack.add("Wed")
-AStack.add("Thu")
+AStack.add("Three")
+AStack.add("Four")
 print(AStack.peek())
