@@ -1,8 +1,3 @@
-print("hello")
-obj=person()
-print(obj.age)
-obj.greet()
-
 class pk:
     def _init_(self,name,age):
         self.name=name
@@ -10,7 +5,7 @@ class pk:
     def show(self):
         print("name ="+ self.name)
         print("age =" , self.age)
-obj1=pk("Sanskar",19)
+obj1=pk("sanskar",19)
 obj1.show()
 
 class MyClass:
@@ -32,10 +27,8 @@ class Queue:
 TheQueue = Queue()
 TheQueue.addtoq("One")
 TheQueue.addtoq("Two")
-TheQueue.addtoq("Three")
 print(TheQueue.size())
 
-#stack
 class Stack:
   def _init_(self):
     self.stack = []
@@ -53,5 +46,4 @@ AStack.add("Two")
 AStack.peek()
 print(AStack.peek())
 AStack.add("Three")
-AStack.add("Four")
 print(AStack.peek())
