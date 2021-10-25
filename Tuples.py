@@ -25,7 +25,7 @@ print(type(secondtuple))
 secondtuple=(1,2,3),"Sanskar",(5,6,7),[6,8,9]
 print(secondtuple)
 print(secondtuple[0])
-print(secondtuplee[2])
+print(secondtuple[2])
 print(secondtuple[0][2])
 print(secondtuple[1][3])
 print(secondtuple[-1][-2])
