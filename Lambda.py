@@ -11,7 +11,7 @@
 [1, 4, 9, 16]
 >>> l=list(map(lambda x: x+2,li))
 >>> print(l)
-[3, 4, 5, 6]
+[3, 6, 11, 18]
 >>> name=["Sanskar","Sairaj","Utkarsh","Jay"]
 >>> last_name=["Bandi","Raghuwanshi","Odhekar","Dubey"]
 >>> l=list(map(lambda x,y:x+" "+y,name,last_name))
